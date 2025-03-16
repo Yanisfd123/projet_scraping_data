@@ -57,8 +57,8 @@ def sauvegarder_donnees(df, fichier_sortie):
 
 # 5. Exécution du programme
 if __name__ == "__main__":
-    fichier_entree = "books_toscrape.csv"  # Remplace par ton fichier CSV
-    fichier_sortie = "livres_nettoyes.csv"
+    fichier_entree = "../data/books_toscrape.csv"  # Remplace par ton fichier CSV
+    fichier_sortie = "../data/livres_nettoyes.csv"
 
     df = charger_donnees(fichier_entree)
     df = nettoyer_donnees(df)

@@ -85,6 +85,6 @@ for page in range(1, max_pages + 1):
 
 # Enregistrement des données dans un fichier CSV
 df = pd.DataFrame(books)
-df.to_csv("../data/raw_data.csv", index=False, encoding='utf-8', sep=";")
+df.to_csv("books_toscrape.csv", index=False, encoding='utf-8', sep=";")
 
-print("Scraping terminé ! Données enregistrées dans raw_data.csv")
+print("Scraping terminé ! Données enregistrées dans books_toscrape.csv")
